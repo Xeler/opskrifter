@@ -1,0 +1,42 @@
+#chatcont {
+	width: 300px;
+	height: 480px;
+	border: 1px solid;
+	overflow: auto;
+}
+
+.item {
+	display: inline-block;
+	border: 1px solid;
+	margin: 5px;
+	padding: 2px;
+}
+
+#results {
+	
+}
+
+.opskrift {
+	
+	display: inline-block;
+	border: 1px dotted;
+	margin: 5px;
+	padding: 5px;
+}
+
+.ingredienser {
+	display: inline-block;
+	
+}
+
+.owns {
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+
+.need {
+	display: inline-block;
+	float: right;
+	width: 50%;
+}

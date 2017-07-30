@@ -1,0 +1,13 @@
+Indlæs db.sql
+Rediger databaseinformationen i index.js, således at den forbinder til din egen MySQL server
+Download nyeste version af node.js (husk at tilføje node til PATH)
+Åben komandoprompt som adminstrator
+Gå til mappen som indeholder dette projekt (C:\..\..\..\op\)
+Kør følgende kommando for at sikre alle moduler er installeret -- dette kræver muligvis adminstrator rettigheder
+    npm install
+Start herefter serveren ved at køre kommandoen:
+    node index.js
+Serveren oprettes på port 3000; den kan således indlæses fra din webbrowser på
+http://localhost:3000/
+
+Bemærk: programmet til at downloade opskrifterne er ikke umiddelbart tilgængeligt. For at gøre dette, omdøb filerne "index.html" til noget andet, og "ripper.html" tilbage til "index.html".
